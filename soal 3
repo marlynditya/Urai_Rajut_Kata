@@ -1,0 +1,16 @@
+kata = input('Masukkan Kata: ')
+len_kata = len(kata)
+
+def urai(x):
+     for i in range(len_kata):
+         for j in range (i+1):
+             print(kata[j],end='')
+
+ urai(kata)
+ 
+def rajut(x):
+   for i in range(len_kata):
+       for j in range(5-i,1,4):
+            print(kata[j],end='')
+
+rajut(kata) 
